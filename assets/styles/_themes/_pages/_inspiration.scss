@@ -1,0 +1,44 @@
+.inspiration {
+  margin-top: -10px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+  &__item {
+    padding: 10px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.inspiration-detail {
+
+  margin-left: 5px;
+  margin-right: 5px;
+
+  &__item {
+    padding: 10px;
+
+    img {
+      width: 100%;
+    }
+  }
+  
+  &__title {
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  &__content {
+
+    p {
+      font-family: 'NanumSquare', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+}

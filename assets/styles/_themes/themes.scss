@@ -1,0 +1,37 @@
+body {
+  background: #fff;
+}
+
+a, a:link, a:visited {
+  color: #000;
+}
+
+#container {
+  @extend .container;
+
+  padding-top: 45px;
+  padding-bottom: 30px;
+
+  @media screen and (max-width: 1199.98px) {
+    padding-top: 100px;
+  }
+}
+
+.pagination {
+  margin: 0 auto;
+}
+
+.chocolat-parent {
+
+  .chocolat-image {
+    cursor: url("/assets/images/zoom.png"), auto;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+main.main {
+  overflow: hidden;
+}

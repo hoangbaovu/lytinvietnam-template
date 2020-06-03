@@ -1,0 +1,22 @@
+.store {
+  padding: 0 15px;
+
+  .store__item {
+    margin-bottom: 50px;
+  }
+
+  .store__title {
+    color: #6f5a4e;
+    font-size: 15.5px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+  }
+
+  .store__gallery {
+
+    img {
+      width: 100%;
+      margin-bottom: 24px;
+    }
+  }
+}

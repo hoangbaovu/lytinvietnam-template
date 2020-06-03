@@ -1,0 +1,30 @@
+/*******
+##### Import styles parts
+**************/
+
+// Libs
+@import "_core/_godomall_reset";
+@import "_core/_bootstrap/bootstrap";
+@import "_core/_fonts";
+
+// Mixin
+
+// Themes
+@import "_themes/themes";
+
+// Components
+
+@import "_themes/_components/_footer";
+@import "_themes/_components/_navbar";
+@import "_themes/_components/_pagination";
+@import "_themes/_components/_header";
+
+// Pages
+
+@import "_themes/_pages/_homepage";
+@import "_themes/_pages/_inspiration";
+@import "_themes/_pages/_notice";
+@import "_themes/_pages/_store";
+@import "_themes/_pages/archive";
+@import "_themes/_pages/home";
+@import "_themes/_pages/shop";

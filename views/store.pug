@@ -1,0 +1,21 @@
+extends ./layouts/layouts.pug
+
+block title
+  | Store
+
+block content
+    section.store
+      .container
+        .chocolat-container
+          .store__item
+            h3.store__title Showroom
+            .store__gallery
+              a.chocolat-image(href='https://via.placeholder.com/1340x496' title='Showroom')
+                img(src="https://via.placeholder.com/1080x400", alt="")
+          .store__item
+            h3.store__title Department Store
+            .store__gallery
+              a.chocolat-image(href='https://via.placeholder.com/1440x396' title='Department Store')
+                img(src="https://via.placeholder.com/1080x400", alt="")
+              a.chocolat-image(href='https://via.placeholder.com/1240x596' title='Department Store')
+                img(src="https://via.placeholder.com/1080x400", alt="")

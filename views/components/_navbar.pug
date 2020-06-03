@@ -1,0 +1,58 @@
+header.header
+  .container
+    nav.navbar.navbar-expand-lg
+      a.navbar-brand(href='/') 
+        img(src="../assets/images/epistel.png", alt="epistel")
+      button#mobile-nav-button
+        span
+        span
+        span
+      .navbar-pc
+        ul.navbar-nav.navbar-first
+          li.nav-item.active
+            a.nav-link(href='/shop.html') Shop 
+              span.sr-only (current)
+          li.nav-item
+            a.nav-link(href='/inspiration.html') Inspiration
+          li.nav-item
+            a.nav-link(href='/store.html') Store
+        a.navbar-brand(href='/') 
+          img(src="../assets/images/epistel.png", alt="epistel")
+        ul.navbar-nav.navbar-last
+          li.nav-item
+            a.nav-link(href='/notice.html') Notice 
+          li.nav-item
+            a.nav-link(href='#') Q&A
+          li.nav-item
+            a.nav-link(href='#') Bag
+          li.nav-item.dropdown
+            a#navbarDropdown.nav-link.dropdown-toggle(href='#' role='button' aria-haspopup='true' aria-expanded='false')
+              | Account
+            .dropdown-menu.navbar-dropdown-menu.m-0(aria-labelledby='navbarDropdown')
+              .navbar-dropdown-section
+                a.navbar-dropdown-item(href='#') Login
+                a.navbar-dropdown-item(href='#') Register
+                a.navbar-dropdown-item(href='#') My page
+                a.navbar-dropdown-item(href='#') Order
+
+    nav.navbar-mobile
+      ul.navbar-mobile-nav
+        li.nav-item.active
+          a.nav-link(href='/shop.html') Shop
+        li.nav-item
+          a.nav-link(href='/editorial.html') Inspiration
+        li.nav-item
+          a.nav-link(href='/store.html') Store
+      ul.navbar-mobile-nav
+        li.nav-item
+          a.nav-link(href='/shop.html') Login
+        li.nav-item
+          a.nav-link(href='/editorial.html') Register
+        li.nav-item
+            a.nav-link(href='/archive.html') Order
+        li.nav-item
+          a.nav-link(href='/store.html') Notice
+        li.nav-item
+          a.nav-link(href='/store.html') Q&A
+        li.nav-item
+          a.nav-link(href='/store.html') Bag

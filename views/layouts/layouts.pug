@@ -1,0 +1,44 @@
+doctype 5
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    link(rel="icon", href="../favicon.ico")
+    
+    //- Fonts
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Cabin&family=Noto+Sans+KR:wght@100;400&family=Playfair+Display&display=swap")
+    link(rel="stylesheet", href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css")
+    link(rel="stylesheet", href="/assets/styles/chocolat.min.css")
+
+    block styles
+
+    title
+      block title
+  body
+    //- include ../components/_navbar
+    header#header
+      .container
+        .navbar
+          button#navbar-menu-button
+            span
+            span
+            span
+          .navbar-logo
+            a(href="/")
+              img(src="../assets/images/logo.png", alt="Logo")
+          .navbar-right
+            a(href="#").cart
+              img(src="../assets/images/common/img_cart.png", alt="")
+            a(href="#").search
+              img(src="../assets/images/common/img_search.png", alt="")
+
+    block content
+
+    include ../components/_footer
+
+    script(src="/assets/scripts/jquery-3.4.1.min.js")
+    script(src="/assets/scripts/popper.min.js")
+    script(src="/assets/scripts/bootstrap.min.js")
+    //- script(src='//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js')
+

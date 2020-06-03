@@ -1,0 +1,67 @@
+.introduction {
+  position: relative;
+  background: url(/assets/images/introduction/img_introduction_bg.png) no-repeat top left;
+  background-size: 100%;
+  padding-top: 213px;
+
+  &::after {
+    content: "";
+    background: url(/assets/images/introduction/img_introduction_logo.png) no-repeat;
+    position: absolute;
+    top: 500px;
+    left: 380px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  &__title {
+    color: #603324;
+    font-family: 'MTD Grange', sans-serif;
+    font-size: 150px;
+    text-transform: uppercase;
+  }
+
+  &__sub-title {
+    color: #603324;
+    font-family: 'JANUARYLOVE', sans-serif;
+    font-size: 75px;
+    text-align: right;
+    margin-top: -42px;
+    margin-right: 60px;
+  }
+
+  &-item {
+
+    span {
+      display: block;
+      text-align: right;
+      margin: 10px 10px 0;
+    }
+  }
+
+  &-item--two {
+    width: 333px;
+    height: 500px;
+    margin-top: -130px;
+    margin-left: 78px;
+  }
+
+  &-item--three {
+    width: 397px;
+    position: relative;
+    margin-left: 270px;
+    margin-top: 300px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background: #C9A89A;
+      width: 397px;
+      height: 378px;
+      top: 10px;
+      left: -10px;
+      z-index: -1;
+    }
+  }
+}

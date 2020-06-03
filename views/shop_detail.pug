@@ -1,0 +1,114 @@
+extends ./layouts/layouts.pug
+
+block title
+  | Shop Detail
+
+block content
+  section.shop
+    .shop-detail
+      .chocolat-container
+        .row
+          .col-md-7
+            .chocolat-parent
+              .row
+                .col-md-6.mb-5
+                  a.chocolat-image(href='assets/images/shop/d2a90eaf8aab2cf7d6c24112759c4731.jpg' title='caption image 1')
+                    img.w-100(src='assets/images/shop/d2a90eaf8aab2cf7d6c24112759c4731.jpg')
+                .col-md-6.mb-5
+                  a.chocolat-image(href='assets/images/shop/2e6ffe338298d4cdc252b851d07c9529.jpg' title='caption image 2')
+                    img.w-100(src='assets/images/shop/2e6ffe338298d4cdc252b851d07c9529.jpg')
+                .col-md-6.mb-5
+                  a.chocolat-image(href='assets/images/shop/36a0d5feae293c997ef6dfb53696a5f4.jpg' title='caption image 3')
+                    img.w-100(src='assets/images/shop/36a0d5feae293c997ef6dfb53696a5f4.jpg')
+                .col-md-6.mb-5
+                  a.chocolat-image(href='assets/images/shop/3f11975b97e7cdae64107c7c507fa8ca.jpg' title='caption image 4')
+                    img.w-100(src='assets/images/shop/3f11975b97e7cdae64107c7c507fa8ca.jpg')
+                .col-md-6.mb-5
+                  a.chocolat-image(href='assets/images/shop/e4b57a1808c469ab3266394a83502069.jpg' title='caption image 5')
+                    img.w-100(src='assets/images/shop/e4b57a1808c469ab3266394a83502069.jpg')
+                .col-md-6.mb-5
+                  a.chocolat-image(href='assets/images/shop/920a5ca350d1d141100eedb68d3671a6.jpg' title='caption image 6')
+                    img.w-100(src='assets/images/shop/920a5ca350d1d141100eedb68d3671a6.jpg')
+                .col-md-12
+                  .video-container
+                    <iframe src="https://www.youtube.com/embed/KKc_RMln5UY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          .col-md-5
+            .shop-buy
+              h4.shop-buy__title Premium cotton a-line shirts (Stripe)
+              p.shop-buy__price ₩<del>155,000</del>
+              p.shop-buy__price.mb-3 ₩155,000
+              .shop-buy__promotion
+                | 무 3,875 원 (2.5%)
+                br
+                | 카 1,550 원 (1%)
+                br
+                | 실 775 원 (0.5%)
+                br
+                | 휴 775 원 (0.5%)
+              .shop-buy__add-to-cart
+                a(href="#").add-to-card Add to cart
+                a(href="#").buy-now Buy now
+              .shop-buy__detail
+                h5.shop-buy__detail__title Details
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(lang='EN-US' style='line-height: 107%; font-family: "맑은 고딕"; font-size: 9pt; mso-ascii-theme-font: major-latin; mso-fareast-theme-font: major-latin; mso-hansi-theme-font: major-latin;')
+                    br
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(lang='EN-US' style='line-height: 107%; font-family: "맑은 고딕"; font-size: 9pt; mso-ascii-theme-font: major-latin; mso-fareast-theme-font: major-latin; mso-hansi-theme-font: major-latin;') PRODUCT INFO
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(style='font-family: "맑은 고딕"; font-size: 9pt;') &nbsp;*TAKISADA FABRIC (FROM JAPAN)
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(lang='EN-US' style='line-height: 107%; font-family: "맑은 고딕"; font-size: 9pt;') &nbsp;-
+                  span(style='line-height: 107%; font-family: "맑은 고딕"; font-size: 9pt;')
+                    | &#xCF54;&#xD2BC;&#xC804;&#xBB38; &#xD68C;&#xC0AC; 
+                    span(lang='EN-US') TAKISADA
+                    | &#xC758; &#xD328;&#xBE0C;&#xB9AD;&#xC73C;&#xB85C;
+                    | &#xB9CC;&#xB4E4;&#xC5B4;&#xC9C4; &#xCCB4;&#xD06C; &#xC154;&#xCE20;
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(lang='EN-US' style='line-height: 107%; font-family: "맑은 고딕"; font-size: 9pt;') &nbsp;-
+                  span(style='line-height: 107%; font-family: "맑은 고딕"; font-size: 9pt;') &#xC0C9;&#xAC10;&#xC758; &#xC774;&#xC5FC;&#xC774;&#xB098; &#xBE60;&#xC9D0;&#xC774; &#xC5C6;&#xC73C;&#xBA70; &#xC120;&#xBA85;&#xD55C; &#xCEEC;&#xB7EC;&#xAC10;&#xC744; &#xC720;&#xC9C0;&#xD558;&#xB294; &#xD504;&#xB9AC;&#xBBF8;&#xC5C4; &#xCF54;&#xD2BC;
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(lang='EN-US' style='line-height: 107%; font-family: "맑은 고딕"; font-size: 9pt;') &nbsp;-
+                  span(style='line-height: 107%; font-family: "맑은 고딕"; font-size: 9pt;')
+                    | &#xCC28;&#xC774;&#xB098; &#xCE74;&#xB77C; &#xB514;&#xC790;&#xC778;
+                    span(lang='EN-US') , 
+                    | &#xC790;&#xAC1C; &#xB2E8;&#xCD94;
+                    span(lang='EN-US') , 7
+                    | &#xBD80; &#xC18C;&#xB9E4;
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(lang='EN-US' style='line-height: 107%; font-family: "맑은 고딕"; font-size: 9pt;') &nbsp;-
+                  span(style='line-height: 107%; font-family: "맑은 고딕"; font-size: 9pt;') &#xC120;&#xBA85;&#xD558;&#xBA74;&#xC11C;&#xB3C4; &#xBC14;&#xC2A4;&#xB77D;&#xD55C; &#xAC10;&#xCD09;&#xC758; &#xC18C;&#xC7AC;
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(style='font-family: "맑은 고딕"; font-size: 9pt;')
+                    br
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(style='font-family: "맑은 고딕"; font-size: 9pt;') MATERIAL
+                  span(style='font-family: "맑은 고딕"; font-size: 9pt;') &nbsp;&nbsp;&nbsp;&nbsp; 
+                  span(style='font-family: "맑은 고딕"; font-size: 9pt;') COTTON 100%
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(style='font-family: "맑은 고딕"; font-size: 9pt;') &nbsp;DRY CLEAN
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(style='font-family: "맑은 고딕"; font-size: 9pt;') &nbsp;DO NOT TUMBLE DRY
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(style='font-family: "맑은 고딕"; font-size: 9pt;') &nbsp;DO NOT BLEACH
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(style='font-family: "맑은 고딕"; font-size: 9pt;')
+                    br
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(style='font-family: "맑은 고딕"; font-size: 9pt;') MODEL SIZE
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(style='font-family: "맑은 고딕"; font-size: 9pt;') &nbsp;Height 173 / Bust 30 / Waist 24 / Hips 34
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(style='font-family: "맑은 고딕"; font-size: 9pt;')
+                    br
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(style='font-family: "맑은 고딕"; font-size: 9pt;') DELIVERY
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  span(lang='EN-US' style='line-height: 107%; font-family: "맑은 고딕"; font-size: 9pt;') &nbsp;1
+                  span(style='line-height: 107%; font-family: "맑은 고딕"; font-size: 9pt;')
+                    | &#xCC28;&#xC8FC;&#xBB38;&#xAC74;
+                    span(lang='EN-US') : 03/02(&#xC6D4;
+                    span(lang='EN-US') )
+                    | &#xBD80;&#xD130; &#xC21C;&#xCC28;&#xBC30;&#xC1A1;
+                p.MsoNormal(style='line-height: 107%; margin-bottom: 8pt;')
+                  br
