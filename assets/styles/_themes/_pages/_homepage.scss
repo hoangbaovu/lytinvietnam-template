@@ -150,7 +150,7 @@
 }
 
 .album {
-  padding-top: 110px;
+  padding: 110px 0 130px;
 
   .album-list {
     margin-bottom: 100px;
@@ -179,7 +179,10 @@
     &__left, &__center, &__right {
       display: flex;
       flex-direction: column;
-      
+    }
+
+    &__right {
+      text-align: right;
     }
   }
 

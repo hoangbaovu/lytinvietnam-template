@@ -1,7 +1,7 @@
 lytinvietnam.com
 ===========
 
-> Nothing Written template with webpack, Pugjs, Babel, SASS and lodash on board
+> Lytinvietnam template with webpack, Pugjs, Babel, SASS and lodash on board
 
 ## Requirements
 You only need <b>node.js</b> pre-installed and you’re good to go. 
