@@ -148,3 +148,39 @@
     }
   }
 }
+
+.album {
+  padding-top: 110px;
+
+  .album-list {
+    margin-bottom: 100px;
+  }
+
+  .album-intro {
+    display: flex;
+    justify-content: space-between;
+
+    &__title {
+      color: #603324;
+      font-family: 'MTD Grange', sans-serif;
+      font-size: 81px;
+      margin-top: auto;
+      margin-bottom: -1px;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    &__link {
+      color: #603324;
+      font-family: 'JANUARYLOVE', sans-serif;
+      font-size: 36px;
+    }
+
+    &__left, &__center, &__right {
+      display: flex;
+      flex-direction: column;
+      
+    }
+  }
+
+}
