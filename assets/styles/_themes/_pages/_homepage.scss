@@ -2,6 +2,7 @@
   background: url(/assets/images/introduction/img_introduction_bg.png) no-repeat top left;
   background-size: 100%;
   padding-top: 213px;
+  padding-bottom: 60px;
 
   &__title {
     color: #603324;
@@ -101,5 +102,49 @@
     align-items: center;
     display: flex;
     margin-left: 80px;
+  }
+}
+
+.about-us {
+  background: #d5c4b4;
+
+  &__title {
+    color: #603324;
+    font-family: 'MTD Grange', sans-serif;
+    font-size: 81px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+  &__logo {
+    position: relative;
+
+    &::after {
+      position: absolute;
+      content: "";
+      background: url(/assets/images/about_us/img_about_us_logo.png) no-repeat;
+      width: 737px;
+      height: 730px;
+      top: -163px;
+      left: -350px;
+      opacity: 0.48;
+    }
+  }
+
+  &__desc {
+    color: #8A4D34;
+    font-family: 'JANUARYLOVE', sans-serif;
+    font-size: 30px;
+    width: 428px;
+    text-align: justify;
+    margin-right: 80px;
+    margin-left: auto;
+    position: relative;
+
+    &::first-letter {
+      padding-left: 50px;
+    }
   }
 }
