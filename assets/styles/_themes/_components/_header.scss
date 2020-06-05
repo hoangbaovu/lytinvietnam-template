@@ -1,4 +1,7 @@
 #header {
-  background: #FCF0DE;
-  min-height: 100vh;
+
+  &.header-home {
+    background: #FCF0DE;
+    min-height: 100vh;
+  }
 }

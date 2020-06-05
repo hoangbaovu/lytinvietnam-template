@@ -45,6 +45,12 @@ module.exports = {
       minify: false,
     }),
 
+    new HtmlWebpackPlugin({
+      filename: "shop_detail.html",
+      template: path.join(__dirname, "views", "shop_detail.pug"),
+      minify: false,
+    }),
+
   ],
   module: {
     rules: [

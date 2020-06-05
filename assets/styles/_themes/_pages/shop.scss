@@ -117,23 +117,25 @@
     }
 
     &__title {
-      font-family: 'Noto Sans CJK KR', sans-serif;
-      font-size: 18px;
+      color: #603324;
+      font-family: 'JANUARYLOVE', sans-serif;
+      font-size: 85px;
       margin-bottom: 20px;
     }
 
     &__price {
-      font-family: 'NanumSquare', sans-serif;
+      font-family: 'JANUARYLOVE', sans-serif;
       font-weight: bold;
       margin: 0;
+      color: #603324;
     }
 
     &__detail {
 
       &__title {
-        font-family: 'Noto Sans CJK KR', sans-serif;
-        font-size: 18px;
-        font-weight: 400;
+        color: #603324;
+        font-family: 'JANUARYLOVE', sans-serif;
+        font-size: 24px;
       }
     }
   }
