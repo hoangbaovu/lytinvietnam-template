@@ -15,15 +15,20 @@ html(lang="en")
 
     title
       block title
-  body
+  body.preloading
     //- include ../components/_navbar
 
-    block content
+    #preload.preload-container
+      img(src="/assets/images/footer_logo.png" alt="Lytin")
+      p Loading...
+    #app
+      block content
 
     include ../components/_footer
 
     script(src="/assets/scripts/jquery-3.4.1.min.js")
     script(src="/assets/scripts/popper.min.js")
     script(src="/assets/scripts/bootstrap.min.js")
+    script(src="/assets/scripts/scrollmonitor/scrollMonitor.js")
     //- script(src='//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js')
 

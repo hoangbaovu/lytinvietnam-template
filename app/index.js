@@ -1,6 +1,7 @@
 /**
  * Application entry point
  */
+import 'core-js';
 import Chocolat from 'chocolat';
 
 // Load application styles
@@ -9,6 +10,9 @@ import "styles/styles.scss";
 // ================================
 // START YOUR APP HERE
 // ================================
+
+// Pages
+import "./pages/home";
 
 $(document).ready(function ($) {
   Chocolat(document.querySelectorAll('.chocolat-image'), {

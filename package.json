@@ -19,6 +19,7 @@
     "IE 10"
   ],
   "dependencies": {
+    "animejs": "^3.2.0",
     "autoprefixer": "^9.7.6",
     "chocolat": "^1.0.1",
     "core-js": "3",

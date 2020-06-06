@@ -1,6 +1,6 @@
 .introduction {
   background: url(/assets/images/introduction/img_introduction_bg.png) no-repeat top left;
-  background-size: 100%;
+  background-size: 100% 100%;
   padding-top: 213px;
   padding-bottom: 60px;
 
@@ -15,9 +15,9 @@
     color: #603324;
     font-family: 'JANUARYLOVE', sans-serif;
     font-size: 75px;
-    text-align: right;
+    float: right;
     margin-top: -42px;
-    margin-right: 101px;
+    margin-right: 98px;
   }
 
   &-item {
@@ -118,15 +118,18 @@
 
 .about-us {
   background: #d5c4b4;
+  overflow: hidden;
 
   &__title {
     color: #603324;
     font-family: 'MTD Grange', sans-serif;
     font-size: 81px;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
     text-align: right;
     text-transform: uppercase;
+    float: right;
+    opacity: 1;
   }
 
   &__logo {
