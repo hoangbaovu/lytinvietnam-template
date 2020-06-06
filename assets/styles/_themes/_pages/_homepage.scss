@@ -21,6 +21,10 @@
   }
 
   &-item {
+    
+    img {
+      transition: all .3s ease-in-out;
+    }
 
     &__desc {
       color: #603324;
@@ -29,6 +33,13 @@
       margin: 10px 0 0;
       font-size: 31px;
       font-family: 'JANUARYLOVE', sans-serif;
+    }
+
+    &:hover {
+
+      img {
+        opacity: .9;
+      }
     }
   }
 
@@ -154,6 +165,19 @@
 
   .album-list {
     margin-bottom: 100px;
+  }
+
+  .album-list-item {
+
+    img {
+      transition: all .3s ease-in-out;
+    }
+
+    &:hover {
+      img {
+        opacity: .8;
+      }
+    }
   }
 
   .album-intro {
