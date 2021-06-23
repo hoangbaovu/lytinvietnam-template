@@ -23,7 +23,7 @@
     "autoprefixer": "^9.7.6",
     "chocolat": "^1.0.1",
     "core-js": "3",
-    "lodash": "4.17.19",
+    "lodash": "4.17.21",
     "websocket-extensions": "^0.1.4"
   },
   "devDependencies": {
